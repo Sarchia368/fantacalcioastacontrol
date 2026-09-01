@@ -1,0 +1,523 @@
+﻿id,ruolo,giocatore,squadra,quotazione,FVM_originale_1000,FVM_convertito_500,prezzo_video_500,prezzo_personale_500,fonte_attiva
+5841,P,Svilar,Roma,18,75,37.5,70.0,,VIDEO
+5116,P,Martinez Jo.,Inter,17,63,31.5,55.0,,VIDEO
+4431,P,Carnesecchi,Atalanta,16,52,26.0,60.0,,VIDEO
+6966,P,Butez,Como,16,54,27.0,50.0,,VIDEO
+4964,P,Vicario,Juventus,16,58,29.0,60.0,,VIDEO
+4312,P,Maignan,Milan,15,50,25.0,50.0,,VIDEO
+2521,P,De Gea,Fiorentina,12,40,20.0,30.0,,VIDEO
+572,P,Meret,Napoli,11,53,26.5,55.0,,VIDEO
+133,P,Skorupski,Bologna,10,36,18.0,20.0,,VIDEO
+4360,P,Caprile,Cagliari,10,28,14.0,10.0,,VIDEO
+6482,P,Mandas,Lazio,10,32,16.0,20.0,,VIDEO
+2134,P,Falcone,Lecce,9,30,15.0,16.5,,VIDEO
+6462,P,Okoye,Udinese,9,29,14.5,16.5,,VIDEO
+6534,P,Perri,Torino,9,26,13.0,,,STIMA
+7332,P,Bijlow,Genoa,8,17,8.5,10.0,,VIDEO
+7411,P,Daffara,Parma,7,10,5.0,,,STIMA
+4236,P,Muric,Sassuolo,7,15,7.5,5.0,,VIDEO
+6248,P,Stankovic F.,Venezia,6,12,6.0,5.0,,VIDEO
+6415,P,Palmisani,Frosinone,5,12,6.0,1.5,,VIDEO
+4485,P,Thiam,Monza,5,11,5.5,1.5,,VIDEO
+2170,P,Milinkovic-Savic V.,Napoli,5,7,3.5,,,STIMA
+7463,P,Desplanches,Frosinone,2,3,1.5,,,STIMA
+2814,P,Provedel,Inter,2,5,2.5,,,STIMA
+4,P,Sportiello,Atalanta,1,1,0.5,,,STIMA
+7533,P,Happonen,Bologna,1,1,0.5,,,STIMA
+7172,P,Pessina Mas.,Bologna,1,1,0.5,,,STIMA
+6650,P,Sherri,Cagliari,1,1,0.5,,,STIMA
+7301,P,Tornqvist,Como,1,1,0.5,,,STIMA
+2809,P,Vigorito,Como,1,1,0.5,,,STIMA
+6403,P,Christensen O.,Fiorentina,1,1,0.5,,,STIMA
+158,P,Lezzerini,Fiorentina,1,1,0.5,,,STIMA
+7466,P,Lolic,Frosinone,1,1,0.5,,,STIMA
+219,P,Sommariva,Genoa,1,1,0.5,,,STIMA
+6569,P,Stolz,Genoa,1,1,0.5,,,STIMA
+1926,P,Di Gennaro,Inter,1,1,0.5,,,STIMA
+1930,P,Pinsoglio,Juventus,1,1,0.5,,,STIMA
+7337,P,Motta,Lazio,1,1,0.5,,,STIMA
+7534,P,Renzetti,Lazio,1,1,0.5,,,STIMA
+2815,P,Terracciano,Milan,1,1,0.5,,,STIMA
+6813,P,Torriani,Milan,1,1,0.5,,,STIMA
+7475,P,Strajnar,Monza,1,1,0.5,,,STIMA
+2845,P,Contini,Napoli,1,1,0.5,,,STIMA
+6662,P,Corvi,Parma,1,10,5.0,,,STIMA
+7048,P,De Marzi,Roma,1,1,0.5,,,STIMA
+610,P,Gollini,Roma,1,1,0.5,,,STIMA
+4518,P,Russo A.,Sassuolo,1,1,0.5,,,STIMA
+4867,P,Turati,Sassuolo,1,1,0.5,,,STIMA
+7457,P,Mascardi,Torino,1,13,6.5,10.0,,VIDEO
+5320,P,Paleari,Torino,1,1,0.5,,,STIMA
+7363,P,Siviero,Torino,1,1,0.5,,,STIMA
+543,P,Padelli,Udinese,1,1,0.5,,,STIMA
+5707,P,Piana,Udinese,1,1,0.5,,,STIMA
+6671,P,Grandi,Venezia,1,1,0.5,,,STIMA
+7531,P,Pozzi,Venezia,1,1,0.5,,,STIMA
+7545,P,Vismara,Atalanta,1,1,0.5,,,STIMA
+2127,P,Satalino,Sassuolo,1,1,0.5,,,STIMA
+7557,P,Penev,Lecce,1,1,0.5,,,STIMA
+7560,P,Pisseri,Frosinone,1,1,0.5,,,STIMA
+3,P,Radunovic,Cagliari,1,1,0.5,,,STIMA
+4957,P,Montipò,Venezia,1,1,0.5,,,STIMA
+4468,P,Bleve,Lecce,1,1,0.5,,,STIMA
+7603,P,Grabara,Juventus,1,1,0.5,,,STIMA
+7611,P,Mrozek,Udinese,1,1,0.5,,,STIMA
+254,D,Dimarco,Inter,31,253,126.5,75.0,,VIDEO
+4998,D,Molina N.,Roma,18,80,40.0,26.5,,VIDEO
+7181,D,Wesley,Roma,17,82,41.0,40.0,,VIDEO
+4159,D,Akanji,Inter,16,51,25.5,38.0,,VIDEO
+2788,D,Bremer,Juventus,16,60,30.0,38.0,,VIDEO
+2296,D,Mancini,Roma,15,49,24.5,38.0,,VIDEO
+2120,D,Bastoni,Inter,14,43,21.5,32.5,,VIDEO
+5022,D,Pavlovic,Milan,14,48,24.0,30.0,,VIDEO
+4409,D,Rrahmani,Napoli,14,51,25.5,38.0,,VIDEO
+4976,D,Kalulu,Juventus,13,46,23.0,33.0,,VIDEO
+4317,D,N'Dicka,Roma,13,44,22.0,,,STIMA
+6956,D,Solet,Udinese,13,46,23.0,25.0,,VIDEO
+6217,D,Bisseck,Inter,12,37,18.5,26.5,,VIDEO
+2514,D,Stones,Inter,12,30,15.0,,,STIMA
+5833,D,Gila,Milan,12,31,15.5,,,STIMA
+2816,D,Di Lorenzo,Napoli,12,40,20.0,25.0,,VIDEO
+5982,D,Spence,Inter,12,40,20.0,26.5,,VIDEO
+5750,D,Ostigard,Genoa,11,43,21.5,30.0,,VIDEO
+5526,D,Scalvini,Atalanta,10,28,14.0,,,STIMA
+6869,D,Ramon,Como,10,32,16.0,28.0,,VIDEO
+5885,D,Dodò,Fiorentina,10,20,10.0,,,STIMA
+4807,D,Hermoso,Roma,10,26,13.0,,,STIMA
+5514,D,Vasquez,Genoa,9,32,16.0,,,STIMA
+5520,D,Cambiaso,Juventus,9,25,12.5,,,STIMA
+6989,D,Tiago Gabriel,Lecce,9,20,10.0,,,STIMA
+5641,D,Chalobah T.,Como,9,30,15.0,30.0,,VIDEO
+6046,D,Hien,Atalanta,8,11,5.5,,,STIMA
+554,D,Zappacosta,Atalanta,8,19,9.5,,,STIMA
+6042,D,Lucumì,Juventus,8,18,9.0,,,STIMA
+4734,D,Miranda J.,Bologna,8,24,12.0,,,STIMA
+4210,D,Mina,Cagliari,8,20,10.0,,,STIMA
+6531,D,Jimenez A.,Fiorentina,8,23,11.5,,,STIMA
+6814,D,Norton-Cuffy,Genoa,8,21,10.5,,,STIMA
+4657,D,Celik,Juventus,8,15,7.5,,,STIMA
+6320,D,Doekhi,Lazio,8,16,8.0,,,STIMA
+6496,D,Bartesaghi,Milan,8,22,11.0,,,STIMA
+1852,D,Spinazzola,Napoli,8,25,12.5,,,STIMA
+6664,D,Delprato,Parma,8,21,10.5,,,STIMA
+5862,D,Valeri,Parma,8,24,12.0,,,STIMA
+7529,D,Koulierakis,Roma,8,17,8.5,,,STIMA
+4994,D,Vojvoda,Udinese,8,19,9.5,,,STIMA
+5555,D,Kamara H.,Udinese,8,12,6.0,,,STIMA
+6727,D,Couto,Como,8,26,13.0,20.0,,VIDEO
+5701,D,Obert,Cagliari,7,15,7.5,,,STIMA
+7414,D,Kaiki,Como,7,16,8.0,,,STIMA
+5365,D,Dragusin,Fiorentina,7,27,13.5,,,STIMA
+5877,D,Carlos Augusto,Inter,7,25,12.5,,,STIMA
+460,D,Romagnoli,Lazio,7,22,11.0,,,STIMA
+4401,D,Gabbia,Milan,7,24,12.0,,,STIMA
+4751,D,Tomori,Milan,7,8,4.0,,,STIMA
+2724,D,Buongiorno,Napoli,7,15,7.5,,,STIMA
+6672,D,Idzes,Sassuolo,7,19,9.5,,,STIMA
+6642,D,Coco,Torino,7,14,7.0,,,STIMA
+5010,D,Ismajli,Torino,7,13,6.5,,,STIMA
+6485,D,Kristensen T.,Atalanta,7,20,10.0,20.0,,VIDEO
+4664,D,Badiashile,Napoli,7,21,10.5,,,STIMA
+7580,D,Sutalo J.,Lazio,7,19,9.5,,,STIMA
+6916,D,Ahanor,Atalanta,6,14,7.0,,,STIMA
+4887,D,Bellanova,Atalanta,6,17,8.5,,,STIMA
+7219,D,Bernasconi,Atalanta,6,18,9.0,,,STIMA
+7212,D,Heggem,Bologna,6,15,7.5,,,STIMA
+4433,D,Zortea,Bologna,6,19,9.5,,,STIMA
+6867,D,Valle,Como,6,21,10.5,,,STIMA
+7294,D,Valdepenas,Fiorentina,6,18,9.0,20.0,,VIDEO
+7410,D,Viery,Fiorentina,6,17,8.5,,,STIMA
+4952,D,Monterisi,Frosinone,6,13,6.5,,,STIMA
+6660,D,Marcandalli,Genoa,6,14,7.0,,,STIMA
+4177,D,Pavard,Inter,6,14,7.0,,,STIMA
+5620,D,Tavares N.,Lazio,6,12,6.0,,,STIMA
+2188,D,Marusic,Lazio,6,20,10.0,,,STIMA
+6632,D,Gaspar K.,Lecce,6,12,6.0,,,STIMA
+6990,D,Veiga D.,Lecce,6,12,6.0,,,STIMA
+4502,D,Gallo,Lecce,6,13,6.5,,,STIMA
+7485,D,Mangas,Monza,6,15,7.5,,,STIMA
+6202,D,Beukema,Napoli,6,12,6.0,,,STIMA
+6495,D,Comuzzo,Torino,6,13,6.5,,,STIMA
+7253,D,Bella-Kotchap,Venezia,6,13,6.5,,,STIMA
+7329,D,Obrador,Sassuolo,6,15,7.5,,,STIMA
+2640,D,Kolasinac,Atalanta,5,8,4.0,,,STIMA
+7068,D,Vitik,Bologna,5,10,5.0,,,STIMA
+5678,D,Holm,Bologna,5,13,6.5,,,STIMA
+7532,D,Kofler,Cagliari,5,8,4.0,,,STIMA
+7274,D,Zè Pedro,Cagliari,5,13,6.5,,,STIMA
+6893,D,Kempf,Como,5,13,6.5,,,STIMA
+5449,D,Parisi,Fiorentina,5,10,5.0,,,STIMA
+7469,D,Bracaglia,Frosinone,5,12,6.0,,,STIMA
+6238,D,Oyono A.,Frosinone,5,10,5.0,,,STIMA
+2593,D,Martin,Genoa,5,8,4.0,,,STIMA
+6766,D,Kelly L.,Juventus,5,12,6.0,,,STIMA
+4817,D,Pedraza,Lazio,5,15,7.5,,,STIMA
+7240,D,Siebert,Lecce,5,12,6.0,,,STIMA
+5840,D,Olivera,Napoli,5,13,6.5,,,STIMA
+6986,D,Rensch,Roma,5,14,7.0,,,STIMA
+6890,D,Moreno M.,Venezia,5,6,3.0,,,STIMA
+4845,D,Correia T.,Venezia,5,12,6.0,,,STIMA
+5695,D,Haps,Venezia,5,10,5.0,,,STIMA
+7069,D,Fortini,Torino,5,12,6.0,,,STIMA
+7564,D,Leysen F.,Sassuolo,5,12,6.0,,,STIMA
+7268,D,Rodriguez Ju.,Cagliari,4,14,7.0,,,STIMA
+7014,D,Smolcic I.,Como,4,10,5.0,,,STIMA
+5603,D,Pongracic,Fiorentina,4,8,4.0,,,STIMA
+7467,D,Calvani,Frosinone,4,12,6.0,,,STIMA
+7537,D,Mitaj,Genoa,4,10,5.0,,,STIMA
+5831,D,Gatti,Juventus,4,10,5.0,,,STIMA
+5739,D,De Winter,Milan,4,12,6.0,,,STIMA
+5273,D,Estupinan,Milan,4,13,6.5,,,STIMA
+2115,D,Delli Carri,Monza,4,11,5.5,,,STIMA
+6659,D,Lucchesi,Monza,4,11,5.5,,,STIMA
+5838,D,Birindelli,Monza,4,12,6.0,,,STIMA
+7235,D,Troilo,Parma,4,14,7.0,,,STIMA
+5307,D,Valenti,Parma,4,10,5.0,,,STIMA
+6631,D,Ghilardi,Roma,4,10,5.0,,,STIMA
+4374,D,Walukiewicz,Sassuolo,4,10,5.0,,,STIMA
+5851,D,Doig,Sassuolo,4,10,5.0,,,STIMA
+7526,D,Comert,Torino,4,12,6.0,,,STIMA
+4263,D,Kabasele,Udinese,4,12,6.0,,,STIMA
+5820,D,Bertola,Udinese,4,10,5.0,,,STIMA
+5527,D,Zanoli,Udinese,4,10,5.0,,,STIMA
+7312,D,Arizala,Udinese,4,8,4.0,,,STIMA
+7538,D,Halhal,Venezia,4,10,5.0,,,STIMA
+4375,D,Terzic,Frosinone,4,8,4.0,,,STIMA
+7563,D,Favasuli,Napoli,4,11,5.5,,,STIMA
+5578,D,Kossounou,Atalanta,3,12,6.0,,,STIMA
+5498,D,Casale,Bologna,3,5,2.5,,,STIMA
+7326,D,Helland,Bologna,3,12,6.0,,,STIMA
+7125,D,Idrissi R.,Cagliari,3,3,1.5,,,STIMA
+4378,D,Ranieri L.,Fiorentina,3,10,5.0,,,STIMA
+7175,D,Joao Mario,Fiorentina,3,12,6.0,,,STIMA
+7540,D,Akpoguma,Frosinone,3,6,3.0,,,STIMA
+5757,D,Cittadini,Frosinone,3,8,4.0,,,STIMA
+7012,D,Provstgaard,Lazio,3,14,7.0,,,STIMA
+7131,D,Floriani Mussolini,Lazio,3,10,5.0,,,STIMA
+7238,D,Kouadio,Monza,3,14,7.0,,,STIMA
+4925,D,Carboni A.,Monza,3,9,4.5,,,STIMA
+7255,D,Britschgi,Parma,3,10,5.0,,,STIMA
+6985,D,Candè,Sassuolo,3,7,3.5,,,STIMA
+6925,D,Palma,Udinese,3,11,5.5,,,STIMA
+5994,D,Ebosse,Udinese,3,5,2.5,,,STIMA
+6892,D,Schingtienne,Venezia,3,10,5.0,,,STIMA
+6673,D,Sverko,Venezia,3,7,3.5,,,STIMA
+6821,D,Hainaut,Venezia,3,12,6.0,,,STIMA
+7154,D,Odenthal,Sassuolo,3,8,4.0,,,STIMA
+7605,D,Tchato,Frosinone,3,8,4.0,,,STIMA
+6601,D,Kambwala,Como,3,8,4.0,,,STIMA
+7483,D,Alhassane,Bologna,2,6,3.0,,,STIMA
+6896,D,Van Der Brempt,Como,2,5,2.5,,,STIMA
+6977,D,Otoa,Genoa,2,5,2.5,,,STIMA
+7413,D,Puczka,Genoa,2,3,1.5,,,STIMA
+791,D,Sabelli,Genoa,2,5,2.5,,,STIMA
+2263,D,Lazzari,Lazio,2,5,2.5,,,STIMA
+2728,D,Pellegrini Lu.,Lazio,2,7,3.5,,,STIMA
+6883,D,Jean,Lecce,2,4,2.0,,,STIMA
+7182,D,Ndaba,Lecce,2,5,2.5,,,STIMA
+7525,D,Diawara S.,Milan,2,4,2.0,,,STIMA
+7476,D,Bakoune,Monza,2,4,2.0,,,STIMA
+6638,D,Marin R.,Napoli,2,8,4.0,,,STIMA
+7202,D,Ndiaye,Parma,2,8,4.0,,,STIMA
+252,D,Biraghi,Torino,2,5,2.5,,,STIMA
+6021,D,Abankwah,Udinese,2,10,5.0,,,STIMA
+7478,D,Franjic,Venezia,2,7,3.5,,,STIMA
+6681,D,Sagrado,Venezia,2,4,2.0,,,STIMA
+7548,D,Aurelio,Cagliari,2,5,2.5,,,STIMA
+7573,D,Cinquegrano,Sassuolo,2,4,2.0,,,STIMA
+5812,D,Terracciano F.,Milan,2,4,2.0,,,STIMA
+487,D,De Silvestri,Bologna,1,4,2.0,,,STIMA
+418,D,Goldaniga,Como,1,1,0.5,,,STIMA
+5424,D,Amey,Frosinone,1,1,0.5,,,STIMA
+294,D,Rugani,Juventus,1,3,1.5,,,STIMA
+6039,D,Cabal,Juventus,1,4,2.0,,,STIMA
+327,D,Patric,Lazio,1,1,0.5,,,STIMA
+5399,D,Antov,Monza,1,2,1.0,,,STIMA
+6809,D,Marianucci,Napoli,1,3,1.5,,,STIMA
+5481,D,Mazzocchi,Napoli,1,3,1.5,,,STIMA
+6149,D,Carboni F.,Parma,1,3,1.5,,,STIMA
+7260,D,Ziolkowski,Roma,1,2,1.0,,,STIMA
+6189,D,Missori,Sassuolo,1,2,1.0,,,STIMA
+7156,D,Pieragnolo,Sassuolo,1,1,0.5,,,STIMA
+7356,D,Mlacic,Udinese,1,3,1.5,,,STIMA
+7454,D,Gomes,Venezia,1,1,0.5,,,STIMA
+7553,D,Omar Fayed,Frosinone,1,1,0.5,,,STIMA
+7396,D,Macchioni,Sassuolo,1,1,0.5,,,STIMA
+7599,D,Lulli,Roma,1,3,1.5,,,STIMA
+7604,D,Maye,Monza,1,1,0.5,,,STIMA
+7615,D,Drobnic,Parma,1,1,0.5,,,STIMA
+6875,C,Paz N.,Como,29,247,123.5,75.0,,VIDEO
+2194,C,Calhanoglu,Inter,28,236,118.0,60.0,,VIDEO
+4777,C,McTominay,Napoli,28,228,114.0,70.0,,VIDEO
+2167,C,Orsolini,Bologna,25,192,96.0,65.0,,VIDEO
+2423,C,Pulisic,Milan,24,160,80.0,55.0,,VIDEO
+2379,C,Rabiot,Milan,23,145,72.5,30.0,,VIDEO
+7126,C,Baturina,Como,19,97,48.5,50.0,,VIDEO
+7556,C,Mora,Roma,19,95,47.5,45.0,,VIDEO
+5559,C,Da Cunha,Como,18,87,43.5,35.0,,VIDEO
+2766,C,Zaniolo,Udinese,18,85,42.5,33.0,,VIDEO
+1870,C,Barella,Inter,17,80,40.0,33.0,,VIDEO
+4973,C,McKennie,Juventus,17,70,35.0,25.0,,VIDEO
+6908,C,Atta,Fiorentina,16,86,43.0,40.0,,VIDEO
+632,C,Zaccagni,Lazio,16,88,44.0,30.0,,VIDEO
+2517,C,De Bruyne,Napoli,16,107,53.5,35.0,,VIDEO
+5800,C,Gudmundsson A.,Fiorentina,13,40,20.0,15.0,,VIDEO
+7314,C,Taylor K.,Lazio,13,57,28.5,20.0,,VIDEO
+5687,C,Vlasic,Torino,13,75,37.5,30.0,,VIDEO
+5792,C,Ederson D.S.,Atalanta,12,49,24.5,20.0,,VIDEO
+5119,C,Samardzic,Atalanta,12,41,20.5,16.5,,VIDEO
+7129,C,Rodriguez Je.,Como,12,31,15.5,,,STIMA
+7436,C,Alajbegovic,Juventus,12,50,25.0,50.0,,VIDEO
+6884,C,Conceicao,Juventus,12,67,33.5,20.0,,VIDEO
+2606,C,Modric,Milan,12,46,23.0,11.5,,VIDEO
+7078,C,Mastantuono,Fiorentina,12,54,27.0,33.0,,VIDEO
+6372,C,Moreira,Milan,12,50,25.0,26.5,,VIDEO
+5172,C,Jones C.,Inter,12,48,24.0,15.0,,VIDEO
+1850,C,Kessiè,Atalanta,12,47,23.5,,,STIMA
+6844,C,Rowe,Bologna,11,44,22.0,30.0,,VIDEO
+5823,C,Baldanzi,Genoa,11,30,15.0,,,STIMA
+152,C,Zielinski,Inter,11,45,22.5,35.0,,VIDEO
+4220,C,Zambo Anguissa,Napoli,11,47,23.5,15.0,,VIDEO
+6684,C,Ekkelenkamp,Udinese,11,45,22.5,25.0,,VIDEO
+4179,C,Gonzalez N.,Juventus,11,41,20.5,,,STIMA
+6151,C,Perrone,Como,10,37,18.5,,,STIMA
+5562,C,Thuram K.,Juventus,10,35,17.5,,,STIMA
+4892,C,Saelemaekers,Milan,10,35,17.5,15.0,,VIDEO
+536,C,Politano,Napoli,10,40,20.0,,,STIMA
+7223,C,Vergara,Napoli,10,40,20.0,20.0,,VIDEO
+5589,C,Konè M.,Roma,10,42,21.0,10.0,,VIDEO
+5844,C,Thorstvedt,Sassuolo,10,40,20.0,,,STIMA
+5888,C,Casadei,Torino,10,32,16.0,20.0,,VIDEO
+530,C,Pellegrini Lo.,Roma,10,25,12.5,,,STIMA
+2077,C,Pasalic,Atalanta,9,24,12.0,,,STIMA
+184,C,Bernardeschi,Bologna,9,30,15.0,11.5,,VIDEO
+1933,C,Mandragora,Fiorentina,9,23,11.5,,,STIMA
+6274,C,Diouf,Inter,9,44,22.0,13.0,,VIDEO
+2848,C,Frattesi,Lazio,9,68,34.0,21.5,,VIDEO
+5500,C,Cancellieri,Lazio,9,28,14.0,,,STIMA
+6398,C,Isaksen,Lazio,9,22,11.0,,,STIMA
+6717,C,Konè I.,Sassuolo,9,20,10.0,,,STIMA
+4364,C,Gaetano,Atalanta,8,30,15.0,,,STIMA
+2765,C,Odgaard,Bologna,8,17,8.5,,,STIMA
+4436,C,Cambiaghi,Bologna,8,21,10.5,,,STIMA
+4465,C,Fagioli,Fiorentina,8,22,11.0,,,STIMA
+6294,C,Ndour,Fiorentina,8,25,12.5,13.0,,VIDEO
+7070,C,Sucic P.,Inter,8,21,10.5,,,STIMA
+827,C,Locatelli,Juventus,8,33,16.5,,,STIMA
+5878,C,Colpani,Monza,8,15,7.5,,,STIMA
+4287,C,Lobotka,Napoli,8,22,11.0,,,STIMA
+779,C,Cristante,Roma,8,29,14.5,,,STIMA
+5735,C,Volpato,Sassuolo,8,23,11.5,,,STIMA
+7551,C,Schmid,Frosinone,8,28,14.0,,,STIMA
+5858,C,Ferguson,Bologna,7,23,11.5,,,STIMA
+4870,C,Adopo,Cagliari,7,13,6.5,,,STIMA
+7311,C,Romano,Cagliari,7,20,10.0,,,STIMA
+6010,C,Fazzini,Cagliari,7,24,12.0,,,STIMA
+7472,C,Calò,Frosinone,7,25,12.5,,,STIMA
+5791,C,Frendrup,Genoa,7,20,10.0,,,STIMA
+4459,C,Rovella,Lazio,7,16,8.0,,,STIMA
+5504,C,Coulibaly L.,Lecce,7,17,8.5,,,STIMA
+4856,C,Chukwueze,Milan,7,22,11.0,,,STIMA
+2741,C,Pessina,Monza,7,15,7.5,,,STIMA
+6666,C,Bernabè,Parma,7,35,17.5,,,STIMA
+6190,C,Pisilli,Roma,7,17,8.5,11.5,,VIDEO
+6218,C,Oristanio,Torino,7,12,6.0,,,STIMA
+6680,C,Karlstrom,Udinese,7,20,10.0,,,STIMA
+6783,C,Unai Gomez,Udinese,7,17,8.5,,,STIMA
+5946,C,Sow,Genoa,7,15,7.5,,,STIMA
+4479,C,Elmas,Atalanta,7,28,14.0,,,STIMA
+5422,C,Zalewski,Atalanta,6,20,10.0,,,STIMA
+5298,C,Pobega,Bologna,6,13,6.5,,,STIMA
+4260,C,Winks,Cagliari,6,15,7.5,,,STIMA
+7412,C,Milla,Como,6,20,10.0,,,STIMA
+5036,C,Caqueret,Como,6,17,8.5,,,STIMA
+6678,C,Liberali,Como,6,21,10.5,,,STIMA
+7464,C,Oulai,Fiorentina,6,20,10.0,,,STIMA
+6020,C,Ellertsson,Genoa,6,18,9.0,,,STIMA
+5761,C,Zhegrova,Juventus,6,20,10.0,,,STIMA
+6549,C,Pierotti,Lecce,6,19,9.5,,,STIMA
+6593,C,Akinsanmiro,Monza,6,12,6.0,,,STIMA
+4349,C,Nicolussi Caviglia,Parma,6,16,8.0,,,STIMA
+2528,C,Matic,Sassuolo,6,15,7.5,,,STIMA
+6170,C,Gineitis,Torino,6,12,6.0,,,STIMA
+5674,C,Basic,Venezia,6,19,9.5,,,STIMA
+7146,C,Tourè I.,Monza,6,14,7.0,,,STIMA
+7528,C,Amondarain,Bologna,5,12,6.0,,,STIMA
+6640,C,Felici,Cagliari,5,8,4.0,,,STIMA
+7127,C,Addai,Como,5,10,5.0,,,STIMA
+5998,C,Zerbin,Frosinone,5,12,6.0,,,STIMA
+7341,C,Amorim,Genoa,5,11,5.5,,,STIMA
+7409,C,Meichtry,Genoa,5,11,5.5,,,STIMA
+2857,C,Traorè Hj.,Genoa,5,11,5.5,,,STIMA
+2529,C,Mkhitaryan,Inter,5,10,5.0,,,STIMA
+5685,C,Koopmeiners,Juventus,5,13,6.5,,,STIMA
+6629,C,Dele-Bashiru,Lazio,5,13,6.5,,,STIMA
+6015,C,Berisha M.,Lecce,5,12,6.0,,,STIMA
+7318,C,Gandelman,Lecce,5,10,5.0,,,STIMA
+4686,C,Fofana Y.,Milan,5,10,5.0,,,STIMA
+7203,C,Jashari,Milan,5,13,6.5,,,STIMA
+6898,C,Keita M.,Parma,5,15,7.5,,,STIMA
+6677,C,Adzic,Sassuolo,5,16,8.0,11.5,,VIDEO
+7036,C,Bakola,Sassuolo,5,14,7.0,,,STIMA
+7060,C,Cacciamani,Torino,5,20,10.0,,,STIMA
+6827,C,Njie,Torino,5,14,7.0,,,STIMA
+7198,C,Piotrowski,Udinese,5,15,7.5,,,STIMA
+5507,C,Busio,Venezia,5,14,7.0,,,STIMA
+5319,C,Sohm,Venezia,5,11,5.5,,,STIMA
+6994,C,Perez K.,Venezia,5,15,7.5,,,STIMA
+7550,C,Grillitsch,Frosinone,5,10,5.0,,,STIMA
+6618,C,Cissè A.,Milan,5,25,12.5,20.0,,VIDEO
+22,C,De Roon,Atalanta,4,8,4.0,,,STIMA
+6054,C,Moro N.,Bologna,4,14,7.0,,,STIMA
+6895,C,Dominguez B.,Sassuolo,4,12,6.0,,,STIMA
+1871,C,Deiola,Cagliari,4,8,4.0,,,STIMA
+6206,C,Fabbian,Parma,4,8,4.0,,,STIMA
+7473,C,Cichella,Frosinone,4,12,6.0,,,STIMA
+7474,C,Koutsoupias,Frosinone,4,11,5.5,,,STIMA
+6506,C,Fini ,Frosinone,4,13,6.5,,,STIMA
+4970,C,Messias,Genoa,4,8,4.0,,,STIMA
+5301,C,Luis Henrique,Inter,4,12,6.0,,,STIMA
+4911,C,Douglas Luiz,Juventus,4,15,7.5,,,STIMA
+333,C,Cataldi,Lazio,4,12,6.0,,,STIMA
+7322,C,Ngom,Lecce,4,13,6.5,,,STIMA
+5453,C,Ricci S.,Como,4,10,5.0,,,STIMA
+4199,C,Loftus-Cheek,Milan,4,18,9.0,,,STIMA
+6252,C,Folorunsho,Monza,4,17,8.5,,,STIMA
+6207,C,Almqvist,Parma,4,11,5.5,,,STIMA
+7536,C,Diallo O.,Parma,4,12,6.0,,,STIMA
+6271,C,El Aynaoui,Roma,4,18,9.0,,,STIMA
+7535,C,Fitz-Jim,Torino,4,18,9.0,,,STIMA
+6005,C,Ilkhan,Torino,4,10,5.0,,,STIMA
+7208,C,Miller L.,Udinese,4,12,6.0,,,STIMA
+6024,C,Sulemana I.,Atalanta,3,7,3.5,,,STIMA
+4947,C,Brescianini,Fiorentina,3,12,6.0,,,STIMA
+6241,C,Gelli F.,Frosinone,3,8,4.0,,,STIMA
+6903,C,Hasa,Frosinone,3,5,2.5,,,STIMA
+6917,C,Masini,Frosinone,3,8,4.0,,,STIMA
+6503,C,Stankovic A.,Inter,3,7,3.5,,,STIMA
+7248,C,Gorter,Lecce,3,12,6.0,,,STIMA
+5457,C,Maleh,Lecce,3,7,3.5,,,STIMA
+5295,C,Musah,Milan,3,15,7.5,,,STIMA
+7477,C,Colombo L.,Monza,3,4,2.0,,,STIMA
+5131,C,Gilmour,Napoli,3,10,5.0,,,STIMA
+7138,C,Ordonez C.,Parma,3,5,2.5,,,STIMA
+7209,C,Sorensen O.,Parma,3,12,6.0,,,STIMA
+7183,C,Aboukhlal,Torino,3,5,2.5,,,STIMA
+5872,C,Helgason,Venezia,3,3,1.5,,,STIMA
+6225,C,El Azzouzi O.,Bologna,2,10,5.0,,,STIMA
+6815,C,Fadera,Cagliari,2,12,6.0,,,STIMA
+6980,C,Venturino,Genoa,2,4,2.0,,,STIMA
+5880,C,Ciurria,Monza,2,6,3.0,,,STIMA
+6219,C,Boloca,Sassuolo,2,5,2.5,,,STIMA
+6246,C,Lipani,Sassuolo,2,5,2.5,,,STIMA
+7418,C,Chakvetadze,Udinese,2,6,3.0,,,STIMA
+526,C,Duncan,Venezia,2,4,2.0,,,STIMA
+6592,C,Forson O.,Monza,2,1,0.5,,,STIMA
+7165,C,Liteta,Cagliari,1,1,0.5,,,STIMA
+7357,C,Lahdo,Como,1,1,0.5,,,STIMA
+7456,C,El Azzouzi A.,Frosinone,1,1,0.5,,,STIMA
+5725,C,Kone B.,Frosinone,1,3,1.5,,,STIMA
+6191,C,Belahyane,Lazio,1,3,1.5,,,STIMA
+7345,C,Przyborek,Lazio,1,5,2.5,,,STIMA
+6410,C,Kaba,Lecce,1,2,1.0,,,STIMA
+7319,C,Fofana Sa.,Lecce,1,1,0.5,,,STIMA
+7276,C,Cremaschi,Parma,1,3,1.5,,,STIMA
+7157,C,Iannoni,Sassuolo,1,1,0.5,,,STIMA
+5007,C,Ilic,Lecce,1,8,4.0,,,STIMA
+6889,C,Anjorin,Torino,1,4,2.0,,,STIMA
+6212,C,Zarraga,Udinese,1,4,2.0,,,STIMA
+7481,C,Dagasso,Venezia,1,1,0.5,,,STIMA
+7571,C,Laerke,Lecce,1,1,0.5,,,STIMA
+7572,C,Comotto,Milan,1,1,0.5,,,STIMA
+7574,C,Foe Ondoa,Monza,1,2,1.0,,,STIMA
+7575,C,Mout,Monza,1,12,6.0,,,STIMA
+5462,C,Ciervo,Cagliari,1,1,0.5,,,STIMA
+5585,A,Malen,Roma,36,414,207.0,166.5,,VIDEO
+2764,A,Martinez L.,Inter,34,367,183.5,140.0,,VIDEO
+4871,A,Thuram,Inter,28,263,131.5,95.0,,VIDEO
+6397,A,Ramos G.,Milan,27,228,114.0,100.0,,VIDEO
+6052,A,Hojlund,Napoli,27,257,128.5,100.0,,VIDEO
+2097,A,Kean,Fiorentina,25,187,93.5,90.0,,VIDEO
+5951,A,Kolo Muani,Juventus,25,211,105.5,90.0,,VIDEO
+6434,A,Yildiz,Juventus,22,150,75.0,38.0,,VIDEO
+7017,A,Douvikas,Como,21,170,85.0,65.0,,VIDEO
+6435,A,Krstovic,Atalanta,19,100,50.0,60.0,,VIDEO
+2137,A,Scamacca,Atalanta,19,123,61.5,60.0,,VIDEO
+5637,A,Davis K.,Udinese,19,109,54.5,60.0,,VIDEO
+4510,A,Leao,Milan,18,75,37.5,,,STIMA
+531,A,Berardi,Sassuolo,18,101,50.5,50.0,,VIDEO
+5995,A,De Ketelaere,Atalanta,17,98,49.0,25.0,,VIDEO
+7071,A,Esposito F.P.,Inter,17,105,52.5,66.5,,VIDEO
+6675,A,Dovbyk,Bologna,15,58,29.0,45.0,,VIDEO
+309,A,Dybala,Roma,15,95,47.5,61.5,,VIDEO
+6060,A,Laurientè,Sassuolo,15,86,43.0,45.0,,VIDEO
+2061,A,Simeone,Torino,15,80,40.0,50.0,,VIDEO
+4371,A,Raspadori,Atalanta,14,76,38.0,25.0,,VIDEO
+7351,A,Santos A.,Napoli,14,62,31.0,33.0,,VIDEO
+7023,A,Pellegrino M.,Fiorentina,14,50,25.0,45.0,,VIDEO
+6572,A,Castro S.,Roma,14,76,38.0,40.0,,VIDEO
+4463,A,Esposito Se.,Sassuolo,13,40,20.0,,,STIMA
+2038,A,Pinamonti,Lazio,13,51,25.5,50.0,,VIDEO
+7547,A,Kevin Carlos,Cagliari,13,37,18.5,,,STIMA
+5734,A,Soulè,Roma,12,45,22.5,25.0,,VIDEO
+7484,A,Adams A.,Venezia,12,45,22.5,20.0,,VIDEO
+6967,A,Diao,Como,11,47,23.5,,,STIMA
+4923,A,Colombo,Genoa,11,55,27.5,35.0,,VIDEO
+6229,A,Tourè E.,Parma,11,43,21.5,,,STIMA
+5672,A,Dia,Lazio,10,30,15.0,,,STIMA
+7313,A,Ratkov,Lazio,10,26,13.0,,,STIMA
+7347,A,Bowie,Sassuolo,10,39,19.5,25.0,,VIDEO
+6646,A,Adams C.,Torino,10,33,16.5,,,STIMA
+7554,A,Romero D.,Parma,10,37,18.5,25.0,,VIDEO
+6530,A,Ghedjemis,Frosinone,9,23,11.5,,,STIMA
+5544,A,David,Juventus,9,37,18.5,,,STIMA
+5029,A,Geubbels,Lecce,9,23,11.5,,,STIMA
+2155,A,Cutrone,Monza,9,30,15.0,,,STIMA
+7612,A,Bobcek,Frosinone,9,38,19.0,,,STIMA
+4359,A,Piccoli,Bologna,8,37,18.5,,,STIMA
+6164,A,Vitinha O.,Genoa,8,16,8.0,,,STIMA
+6904,A,Yeboah J.,Venezia,8,27,13.5,20.0,,VIDEO
+7449,A,Rrahmani Al.,Venezia,8,18,9.0,,,STIMA
+7600,A,Osmajic,Genoa,8,30,15.0,,,STIMA
+5436,A,Raimondo,Frosinone,7,15,7.5,,,STIMA
+6669,A,Bonny,Inter,7,18,9.0,,,STIMA
+7252,A,Stulic,Lecce,7,12,6.0,,,STIMA
+608,A,Zapata D.,Torino,7,18,9.0,,,STIMA
+5918,A,Sulemana K.,Atalanta,6,10,5.0,,,STIMA
+6598,A,Mutandwa,Cagliari,6,10,5.0,,,STIMA
+2832,A,Boga,Juventus,6,26,13.0,,,STIMA
+6556,A,Noslin,Lazio,6,17,8.5,,,STIMA
+7008,A,Gimenez,Milan,6,10,5.0,,,STIMA
+6831,A,Neres,Napoli,6,17,8.5,,,STIMA
+4896,A,Maldini,Cagliari,5,21,10.5,,,STIMA
+6519,A,Camarda,Milan,5,20,10.0,,,STIMA
+5882,A,Mota,Monza,5,10,5.0,,,STIMA
+7523,A,Varela G.,Monza,5,20,10.0,20.0,,VIDEO
+7213,A,Frigan,Parma,5,10,5.0,,,STIMA
+4387,A,Adorante,Venezia,5,12,6.0,,,STIMA
+2012,A,Milik,Juventus,5,13,6.5,,,STIMA
+7610,A,Birligea,Frosinone,5,14,7.0,,,STIMA
+6145,A,Ngonge,Monza,5,13,6.5,,,STIMA
+6243,A,Borrelli,Cagliari,4,9,4.5,,,STIMA
+7374,A,Mendy P.,Cagliari,4,14,7.0,,,STIMA
+6204,A,Kvernadze,Frosinone,4,17,8.5,,,STIMA
+7453,A,Havel,Genoa,4,9,4.5,,,STIMA
+7162,A,Giovane,Napoli,4,10,5.0,,,STIMA
+7120,A,Lang,Napoli,4,12,6.0,,,STIMA
+6215,A,Lucca,Napoli,4,10,5.0,,,STIMA
+7349,A,Kulenovic,Torino,4,9,4.5,,,STIMA
+7272,A,Gueye,Udinese,4,7,3.5,,,STIMA
+7546,A,Robinson J.,Monza,4,5,2.5,,,STIMA
+7602,A,Fatah,Lecce,4,17,8.5,,,STIMA
+7128,A,Kuhn,Como,3,5,2.5,,,STIMA
+6822,A,Ekhator,Juventus,3,10,5.0,,,STIMA
+7001,A,N'Dri,Lecce,3,15,7.5,,,STIMA
+7342,A,Elphege,Parma,3,11,5.5,,,STIMA
+7561,A,Lontani,Parma,2,10,5.0,,,STIMA
+7317,A,Trepy,Cagliari,1,2,1.0,,,STIMA
+7027,A,Azon,Como,1,1,0.5,,,STIMA
+6981,A,Vaz,Roma,1,4,2.0,,,STIMA
+7161,A,Bayo V.,Udinese,1,3,1.5,,,STIMA
+7408,A,Lisman,Venezia,1,1,0.5,,,STIMA
+7482,A,Lauberbach,Venezia,1,1,0.5,,,STIMA
+7568,A,De Martis,Parma,1,1,0.5,,,STIMA

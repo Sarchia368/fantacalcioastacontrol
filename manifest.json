@@ -1,0 +1,22 @@
+{
+  "name": "Fantacalcio Asta Control",
+  "short_name": "Asta Control",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#070b14",
+  "theme_color": "#070b14",
+  "lang": "it",
+  "description": "Strumento per l'asta del Fantacalcio con FVM, budget, strategie e analisi live.",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
