@@ -1,13 +1,13 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "fantacalcio-asta-control",
-  "compatibility_date": "2026-08-28",
-  "main": "_worker.js",
+  "compatibility_date": "2026-09-01",
   "assets": {
     "directory": ".",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application"
   },
+  "main": "_worker.js",
   "d1_databases": [
     {
       "binding": "DB",

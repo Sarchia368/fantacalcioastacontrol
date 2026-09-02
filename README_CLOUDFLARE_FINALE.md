@@ -1,40 +1,33 @@
-# Fantacalcio Asta Control 26/27 — V47
+# Fantacalcio Asta Control 26/27 — V50
 
-## Cosa contiene questa build
-- Home responsive in HTML/CSS/JS: i 5 giocatori in evidenza sono **5 immagini separate**, non una composizione unica.
-- Malen è mostrato come card centrale con maglia Roma; Calhanoglu non è presente nella hero.
-- FVM hero convertiti dalla base 1000 alla base 500: Lautaro 183,5; Malen 103,5; Orsolini 96; McTominay 114; Yildiz 75.
-- Ricerca Listone e Asta Live aggiornata mentre si digita, senza uscire/rientrare dalla sezione.
-- Asta Live: un giocatore può essere preso in qualsiasi momento, indipendentemente dalla fase visualizzata; la fase continua a servire per budget e strategie.
-- Email facoltativa: abilita il salvataggio locale e il backup **sul dispositivo corrente**. Non crea una sincronizzazione automatica dell'asta tra dispositivi.
-- Per trasferire la stessa asta: **Esporta backup → trasferisci il JSON → Importa backup** sull'altro dispositivo.
-- Promemoria ogni 5 minuti se l'email non è stata inserita; chiudibile con X. Le comunicazioni sugli aggiornamenti sono separate e facoltative.
-- Service Worker aggiornato a V47 per evitare cache vecchie.
-- Worker Cloudflare predisposto per `/api/subscribe` + D1 opzionale.
+Versione pubblica aggiornata dopo la chiusura del calciomercato estivo 2026.
 
-## Deploy Cloudflare
-1. Carica questo contenuto nel repository GitHub.
-2. In Cloudflare Workers & Pages collega il repository GitHub.
-3. Build command: lascia vuoto.
-4. Root/Path: `/`.
-5. Deploy command: `npx wrangler deploy`.
-6. Il file `wrangler.jsonc` non contiene un ID D1 fittizio: il deploy funziona anche senza D1.
+## Cosa cambia in V50
+- Home riprogettata senza le immagini dei giocatori: niente ritagli o composizioni che rendono male su mobile.
+- Listone ufficiale aggiornato usando il file `Quotazioni_Fantacalcio_Stagione_2026_27(2).xlsx` fornito per questa versione.
+- 531 giocatori attivi nel foglio `Tutti`, con ruoli, squadre, quotazioni e FVM aggiornati.
+- FVM mantenuto sulla base 1000 del listone e convertito alla base dell'asta: per il default 500, FVM / 2; il valore viene poi riscalato automaticamente se l'utente sceglie un budget diverso.
+- Asta Live: corretto il passaggio dell'ID del giocatore ai pulsanti di acquisto.
+- “Acquistato da me” aggiorna rosa, spesa, disponibilità e registro.
+- “Acquistato da un altro” rimuove il giocatore dalle disponibilità e lo registra.
+- Un giocatore già acquistato non può essere registrato una seconda volta.
+- Il registro salva anche il nome del giocatore, così resta leggibile anche se in futuro il listone cambia.
+- Il refresh ufficiale del listone non cancella più obiettivi, costi personali, priorità e note salvati per ID giocatore.
+- Service worker V50 con cache separata e bypass della cache per HTML/SW.
 
-## D1 per archiviare le email
-1. Crea un database D1 in Cloudflare.
-2. Crea la tabella usando `schema.sql`.
-3. Aggiungi nel `wrangler.jsonc` un binding `DB` che punti al database D1 reale, oppure configura il binding dal progetto Cloudflare secondo la procedura disponibile nel dashboard.
-4. Ridistribuisci.
+## Criterio FVM
+Il listone fornito contiene il FVM su base 1000. L'app usa quel FVM come riferimento della `Stima` e lo converte al budget dell'asta. Esempio: FVM 200 → 100 su budget 500 → 200 su budget 1000.
 
-Senza D1 il sito continua a funzionare: l'email inserita abilita comunque il salvataggio locale sul dispositivo corrente, mentre l'archivio centrale delle email resta disattivato.
+## Calciomercato
+La sessione estiva di Serie A 2026 è terminata il 1 settembre 2026 alle 20:00. Il listone di questa versione viene dal file aggiornato fornito dall'utente; non vengono inventati valori per giocatori assenti dal file.
 
-## Google
-- `google152e713ce7f6e47a.html` è incluso per la verifica HTML.
-- Dopo la verifica, invia `sitemap.xml` in Google Search Console.
-- **Prima della pubblicazione definitiva aggiorna l'URL dentro `sitemap.xml` e, se necessario, `robots.txt` con il dominio Cloudflare effettivamente scelto.**
+## Pubblicazione Cloudflare
+Caricare il contenuto di questo ZIP nella root del progetto Cloudflare Pages/Workers come previsto dalla configurazione. `wrangler.jsonc` include già il binding D1 `DB` per `fanta-asta-leads`.
 
-## Privacy / dati
-L'email è facoltativa. La casella aggiornamenti è separata dal salvataggio. Prima di attivare analytics, pubblicità o newsletter commerciali, aggiorna privacy/cookie policy e meccanismi di consenso in base al servizio usato.
+Prima della pubblicazione finale, aggiornare `sitemap.xml`, `robots.txt` e `og:image` se il dominio pubblico non è più quello indicato nei file.
 
-## Nota sulle immagini e sui dati
-La build pubblica non distribuisce il file XLSX sorgente. Verifica sempre i diritti/licenze della fonte del listone prima di usare o monetizzare dati di terze parti.
+## Nota
+Il pacchetto pubblico non distribuisce il file XLSX sorgente. Verificare sempre i diritti di utilizzo delle quotazioni/dati prima di una monetizzazione pubblica.
+
+
+Nota V50: il vecchio sitemap Netlify è stato rimosso perché il dominio finale Cloudflare non è noto in questa build. Dopo aver scelto il dominio pubblico definitivo, ricreare sitemap.xml e aggiungere la relativa riga in robots.txt con quel dominio.
