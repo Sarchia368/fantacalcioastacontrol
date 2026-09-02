@@ -1,30 +1,40 @@
-# Fantacalcio Asta Control — pacchetto finale
+# Fantacalcio Asta Control 26/27 — V47
 
-## Pubblicazione consigliata
-Questo pacchetto è pensato per Cloudflare Pages/Workers.
+## Cosa contiene questa build
+- Home responsive in HTML/CSS/JS: i 5 giocatori in evidenza sono **5 immagini separate**, non una composizione unica.
+- Malen è mostrato come card centrale con maglia Roma; Calhanoglu non è presente nella hero.
+- FVM hero convertiti dalla base 1000 alla base 500: Lautaro 183,5; Malen 103,5; Orsolini 96; McTominay 114; Yildiz 75.
+- Ricerca Listone e Asta Live aggiornata mentre si digita, senza uscire/rientrare dalla sezione.
+- Asta Live: un giocatore può essere preso in qualsiasi momento, indipendentemente dalla fase visualizzata; la fase continua a servire per budget e strategie.
+- Email facoltativa: abilita il salvataggio locale e il backup **sul dispositivo corrente**. Non crea una sincronizzazione automatica dell'asta tra dispositivi.
+- Per trasferire la stessa asta: **Esporta backup → trasferisci il JSON → Importa backup** sull'altro dispositivo.
+- Promemoria ogni 5 minuti se l'email non è stata inserita; chiudibile con X. Le comunicazioni sugli aggiornamenti sono separate e facoltative.
+- Service Worker aggiornato a V47 per evitare cache vecchie.
+- Worker Cloudflare predisposto per `/api/subscribe` + D1 opzionale.
 
-### 1) Pubblica il sito
-Puoi usare Cloudflare Pages Direct Upload per i file statici. Il progetto contiene anche `_worker.js`, supportato da Direct Upload.
+## Deploy Cloudflare
+1. Carica questo contenuto nel repository GitHub.
+2. In Cloudflare Workers & Pages collega il repository GitHub.
+3. Build command: lascia vuoto.
+4. Root/Path: `/`.
+5. Deploy command: `npx wrangler deploy`.
+6. Il file `wrangler.jsonc` non contiene un ID D1 fittizio: il deploy funziona anche senza D1.
 
-### 2) Salvataggio delle email
-Le email inserite dagli utenti sono facoltative. Servono per attivare il salvataggio locale e gli strumenti di backup tra dispositivi. Non viene promesso un sincronismo automatico dell'intera asta.
+## D1 per archiviare le email
+1. Crea un database D1 in Cloudflare.
+2. Crea la tabella usando `schema.sql`.
+3. Aggiungi nel `wrangler.jsonc` un binding `DB` che punti al database D1 reale, oppure configura il binding dal progetto Cloudflare secondo la procedura disponibile nel dashboard.
+4. Ridistribuisci.
 
-Per rendere le email utili al proprietario del sito:
-1. Cloudflare Dashboard → Workers & Pages → crea un database D1 chiamato `fanta-asta-leads`.
-2. Esegui `schema.sql` sul database.
-3. Nel progetto Pages aggiungi un binding D1 con variabile `DB` e seleziona quel database.
-4. Ridistribuisci il progetto.
+Senza D1 il sito continua a funzionare: l'email inserita abilita comunque il salvataggio locale sul dispositivo corrente, mentre l'archivio centrale delle email resta disattivato.
 
-L'endpoint `/api/subscribe` salverà:
-- email;
-- consenso agli aggiornamenti (`1/0`);
-- finalità `backup_locale`;
-- data di creazione e ultimo aggiornamento.
+## Google
+- `google152e713ce7f6e47a.html` è incluso per la verifica HTML.
+- Dopo la verifica, invia `sitemap.xml` in Google Search Console.
+- **Prima della pubblicazione definitiva aggiorna l'URL dentro `sitemap.xml` e, se necessario, `robots.txt` con il dominio Cloudflare effettivamente scelto.**
 
-Le email non vengono mostrate pubblicamente.
+## Privacy / dati
+L'email è facoltativa. La casella aggiornamenti è separata dal salvataggio. Prima di attivare analytics, pubblicità o newsletter commerciali, aggiorna privacy/cookie policy e meccanismi di consenso in base al servizio usato.
 
-### 3) Importante
-La casella "ricevere aggiornamenti dell'app" è separata dall'email necessaria per il salvataggio. Un utente può usare il backup senza acconsentire alle comunicazioni future.
-
-### 4) Privacy
-Se raccogli email reali, prima della pubblicazione definitiva aggiorna Privacy/Cookie con il titolare, finalità, base giuridica, conservazione e diritti degli interessati. Non usare l'elenco email per newsletter/marketing finché non hai una base giuridica e un consenso dove necessario.
+## Nota sulle immagini e sui dati
+La build pubblica non distribuisce il file XLSX sorgente. Verifica sempre i diritti/licenze della fonte del listone prima di usare o monetizzare dati di terze parti.
