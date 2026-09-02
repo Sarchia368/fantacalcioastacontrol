@@ -2,9 +2,17 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "fantacalcio-asta-control",
   "compatibility_date": "2026-08-28",
+  "main": "_worker.js",
   "assets": {
     "directory": ".",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application"
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fanta-asta-leads",
+      "database_id": "INSERISCI_QUI_IL_TUO_DATABASE_ID_VERO"
+    }
+  ]
 }
