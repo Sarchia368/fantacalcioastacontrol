@@ -1,33 +1,48 @@
-# Fantacalcio Asta Control 26/27 — V50
+# Fantacalcio Asta Control 26/27 — V56
 
-Versione pubblica aggiornata dopo la chiusura del calciomercato estivo 2026.
+Candidata finale pubblica con importazione del listone a carico dell'utente.
 
-## Cosa cambia in V50
-- Home riprogettata senza le immagini dei giocatori: niente ritagli o composizioni che rendono male su mobile.
-- Listone ufficiale aggiornato usando il file `Quotazioni_Fantacalcio_Stagione_2026_27(2).xlsx` fornito per questa versione.
-- 531 giocatori attivi nel foglio `Tutti`, con ruoli, squadre, quotazioni e FVM aggiornati.
-- FVM mantenuto sulla base 1000 del listone e convertito alla base dell'asta: per il default 500, FVM / 2; il valore viene poi riscalato automaticamente se l'utente sceglie un budget diverso.
-- Asta Live: corretto il passaggio dell'ID del giocatore ai pulsanti di acquisto.
-- “Acquistato da me” aggiorna rosa, spesa, disponibilità e registro.
-- “Acquistato da un altro” rimuove il giocatore dalle disponibilità e lo registra.
-- Un giocatore già acquistato non può essere registrato una seconda volta.
-- Il registro salva anche il nome del giocatore, così resta leggibile anche se in futuro il listone cambia.
-- Il refresh ufficiale del listone non cancella più obiettivi, costi personali, priorità e note salvati per ID giocatore.
-- Service worker V50 con cache separata e bypass della cache per HTML/SW.
+## Cosa cambia in V56
+- Nessun listone reale è incorporato nel codice o nel repository.
+- Presente solo `listone_demo.csv`, con dati completamente fittizi per mostrare il formato.
+- Onboarding con step obbligatorio per il listone: import reale oppure “Esplora con dati di esempio”.
+- In modalità demo Asta Live resta bloccata.
+- Landing iniziale: indicazione discreta che per Asta Live serve prima importare un listone.
+- Import Excel `.xlsx/.xls` e CSV/TSV direttamente nel browser.
+- Parsing flessibile delle colonne Nome/Giocatore, Ruolo, Squadra, Quotazione e FVM/Valore/Stima.
+- Re-import automatico: aggiunge nuovi giocatori, rimuove quelli non più presenti, aggiorna valori cambiati e mantiene il Costo personale per i giocatori riconosciuti.
+- Stima dinamica: valore di riferimento / 1000 × crediti totali scelti.
+- Nessun massimale personale, priorità, nota, gruppo guida o strategia personale predefinita.
+- Costo personale opzionale per singolo giocatore.
+- Asta Live disponibile solo dopo un import reale.
+- Privacy, Cookie e Termini aggiornati al nuovo modello di importazione.
+- Service Worker V56 con cache separata.
 
-## Criterio FVM
-Il listone fornito contiene il FVM su base 1000. L'app usa quel FVM come riferimento della `Stima` e lo converte al budget dell'asta. Esempio: FVM 200 → 100 su budget 500 → 200 su budget 1000.
+## Importazione
+Il file viene letto nel browser. Il normale import del listone non invia il file all'endpoint `/api/subscribe`.
 
-## Calciomercato
-La sessione estiva di Serie A 2026 è terminata il 1 settembre 2026 alle 20:00. Il listone di questa versione viene dal file aggiornato fornito dall'utente; non vengono inventati valori per giocatori assenti dal file.
+Formato minimo richiesto:
+- Nome/Giocatore
+- Ruolo: P, D, C oppure A
+- FVM/Valore/Stima numerico
+
+Squadra e Quotazione sono riconosciute se presenti.
 
 ## Pubblicazione Cloudflare
-Caricare il contenuto di questo ZIP nella root del progetto Cloudflare Pages/Workers come previsto dalla configurazione. `wrangler.jsonc` include già il binding D1 `DB` per `fanta-asta-leads`.
+Caricare il contenuto dello ZIP nella root del progetto Cloudflare Workers/Pages secondo la configurazione presente.
 
-Prima della pubblicazione finale, aggiornare `sitemap.xml`, `robots.txt` e `og:image` se il dominio pubblico non è più quello indicato nei file.
+Dominio pubblico: `https://fantacalcioastacontrol.it/`
 
-## Nota
-Il pacchetto pubblico non distribuisce il file XLSX sorgente. Verificare sempre i diritti di utilizzo delle quotazioni/dati prima di una monetizzazione pubblica.
+`sitemap.xml`, `robots.txt`, canonical e anteprime social usano il dominio definitivo.
 
+## Monetizzazione
+AdSense non è attivo in V56. Prima dell'attivazione commerciale devono essere completati:
+- identità reale del titolare nella Privacy Policy;
+- CMP certificata Google e integrazione IAB TCF v2.3 quando richiesta per il traffico EEA/UK/Svizzera;
+- testi privacy/cookie coerenti con i fornitori effettivamente attivati;
+- Cloudflare Rate Limiting per `/api/subscribe`;
+- account AdSense del genitore/tutore maggiorenne e relativa approvazione;
+- verifica finale di tutte le policy Google e del sito.
 
-Nota V50: il vecchio sitemap Netlify è stato rimosso perché il dominio finale Cloudflare non è noto in questa build. Dopo aver scelto il dominio pubblico definitivo, ricreare sitemap.xml e aggiungere la relativa riga in robots.txt con quel dominio.
+## GitHub / Cloudflare
+Se Workers Builds è collegato al repository GitHub corretto e alla branch di produzione, un push sulla branch configurata può attivare automaticamente build e deploy del Worker.

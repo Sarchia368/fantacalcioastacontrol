@@ -9,6 +9,10 @@ function json(data, status = 200) {
     headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" }
   });
 }
+const RATE_WINDOW_MS = 10 * 60 * 1000;
+const RATE_LIMIT = 8;
+const rateMap = new Map();
+function allowed(request) { const ip = request.headers.get('CF-Connecting-IP') || 'unknown'; const now = Date.now(); if (rateMap.size > 2000) { for (const [key, value] of rateMap) if (now-value.start > RATE_WINDOW_MS) rateMap.delete(key); } const old = rateMap.get(ip); if (!old || now-old.start > RATE_WINDOW_MS) { rateMap.set(ip,{start:now,count:1}); return true; } old.count++; return old.count <= RATE_LIMIT; }
 function validEmail(email) {
   return typeof email === "string" && email.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
@@ -20,6 +24,9 @@ export default {
     if (["/schema.sql","/wrangler.jsonc","/README_CLOUDFLARE_FINALE.md","/README_PUBBLICA_V25.txt"].includes(url.pathname)) return new Response("Not Found", { status: 404 });
 
     if (url.pathname === "/api/subscribe" && request.method === "POST") {
+      if (!allowed(request)) return json({ ok: false, error: "Troppe richieste. Riprova più tardi." }, 429);
+      const contentLength = Number(request.headers.get('content-length') || 0);
+      if (contentLength > 4096) return json({ ok: false, error: "Richiesta troppo grande" }, 413);
       let body;
       try { body = await request.json(); } catch { return json({ ok: false, error: "JSON non valido" }, 400); }
       const email = String(body?.email || "").trim().toLowerCase();

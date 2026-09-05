@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://fantacalcioastacontrol.gabrieleesposti1.workers.dev/</loc>
-  </url>
+  <url><loc>https://fantacalcioastacontrol.it/</loc></url>
+  <url><loc>https://fantacalcioastacontrol.it/info.html</loc></url>
+  <url><loc>https://fantacalcioastacontrol.it/privacy.html</loc></url>
+  <url><loc>https://fantacalcioastacontrol.it/cookie.html</loc></url>
+  <url><loc>https://fantacalcioastacontrol.it/termini.html</loc></url>
 </urlset>

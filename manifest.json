@@ -6,7 +6,7 @@
   "background_color": "#070b14",
   "theme_color": "#070b14",
   "lang": "it",
-  "description": "Strumento per l'asta del Fantacalcio con FVM, budget, strategie e analisi live.",
+  "description": "Strumento per l'asta del Fantacalcio con listone personale, Stime, budget, strategie e analisi live.",
   "icons": [
     {
       "src": "icon-192.png",
