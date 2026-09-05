@@ -1,21 +1,150 @@
 Nome,Team,Ruolo,Quotazione,FVM
-Mile Svilar,Roma,P,18,196
-Joan Garcia,Barcelona,P,17,183
-Mike Maignan,Milan,P,16,171
-Marco Carnesecchi,Atalanta,P,15,158
-Federico Dimarco,Inter,D,32,278
-Manuel Akanji,Inter,D,17,154
-Alessandro Bastoni,Inter,D,16,149
-Gleison Bremer,Juventus,D,15,141
-Wesley,Juventus,D,17,136
+Lautaro Martinez,Inter,A,35,382
+Donyell Malen,Roma,A,34,376
+Marcus Thuram,Inter,A,29,314
+Rasmus Hojlund,Napoli,A,28,289
+Ramos G.,Milan,A,24,223
+Kenan Yildiz,Juventus,A,23,218
+Kean,Como,A,24,197
+Douvikas,Como,A,25,189
+Woltemade,Juventus,A,23,177
+Kolo Muani,Juventus,A,22,169
+Scamacca,Atalanta,A,17,125
+Berardi,Sassuolo,A,20,112
+Krstovic,Atalanta,A,19,102
+Davis K.,Udinese,A,17,98
+De Ketelaere,Atalanta,A,17,97
+Laurientè,Sassuolo,A,15,94
+Esposito F.P.,Inter,A,16,93
+Dybala,Roma,A,18,92
+Simeone,Torino,A,13,85
+Raspadori,Atalanta,A,13,71
+Castro S.,Roma,A,15,66
+Santos A.,Napoli,A,13,66
+Colombo,Genoa,A,13,60
+Diao,Como,A,11,56
+Pinamonti,Lazio,A,10,52
+Dovbyk,Bologna,A,13,47
 Nico Paz,Como,C,30,267
 Scott McTominay,Napoli,C,28,251
 Hakan Calhanoglu,Inter,C,27,246
 Riccardo Orsolini,Bologna,C,26,228
 Christian Pulisic,Milan,C,23,205
 Luka Modric,Milan,C,21,171
-Lautaro Martinez,Inter,A,35,382
-Donyell Malen,Roma,A,34,376
-Marcus Thuram,Inter,A,29,314
-Rasmus Hojlund,Napoli,A,28,289
-Kenan Yildiz,Juventus,A,23,218
+Rabiot,Milan,C,20,137
+De Bruyne,Napoli,C,15,122
+Baturina,Como,C,22,115
+Da Cunha,Como,C,20,99
+Mora,Roma,C,19,87
+Zaccagni,Lazio,C,14,87
+Barella,Inter,C,16,87
+Frattesi,Lazio,C,9,83
+Atta,Fiorentina,C,15,79
+McKennie,Juventus,C,17,75
+Zaniolo,Udinese,C,19,71
+Vlasic,Torino,C,13,67
+Conceicao,Juventus,C,12,64
+Ekkelenkamp,Udinese,C,14,60
+Taylor K.,Lazio,C,13,53
+Ederson D.S.,Atalanta,C,11,52
+Goncalves P.,Fiorentina,C,11,51
+Kessiè,Atalanta,C,10,49
+Zielinski,Inter,C,11,47
+Diouf,Inter,C,9,47
+Mastantuono,Fiorentina,C,10,46
+Samardzic,Atalanta,C,15,45
+Jones C.,Inter,C,11,43
+Gudmundsson A.,Lazio,C,13,42
+Alajbegovic,Juventus,C,10,41
+Zambo Anguissa,Napoli,C,10,41
+Moreira,Milan,C,10,40
+Gonzalez N.,Juventus,C,13,39
+Konè M.,Roma,C,11,38
+Perrone,Como,C,9,38
+Bernabè,Parma,C,7,38
+Thorstvedt,Sassuolo,C,10,37
+Rowe,Atalanta,C,11,35
+Politano,Napoli,C,10,34
+Saelemaekers,Milan,C,10,34
+Rodriguez Je.,Como,C,13,34
+Gaetano,Atalanta,C,8,34
+Vergara,Napoli,C,10,33
+Baldanzi,Genoa,C,11,32
+Calò,Frosinone,C,9,31
+Njie,Fiorentina,C,4,30
+Locatelli,Juventus,C,9,29
+Casadei,Torino,C,9,29
+Milla,Como,C,7,27
+Cristante,Roma,C,9,27
+Bernardeschi,Bologna,C,10,26
+Mbangula,Bologna,C,8,24
+Federico Dimarco,Inter,D,32,278
+Manuel Akanji,Inter,D,17,154
+Alessandro Bastoni,Inter,D,16,149
+Gleison Bremer,Juventus,D,15,141
+Wesley,Juventus,D,17,136
+Molina N.,Roma,D,18,89
+Rrahmani,Napoli,D,14,52
+Mancini,Roma,D,18,52
+Pavlovic,Milan,D,16,50
+Solet,Udinese,D,12,43
+Kalulu,Juventus,D,15,41
+Bisseck,Inter,D,11,41
+N'Dicka,Roma,D,11,39
+Ostigard,Genoa,D,10,38
+Di Lorenzo,Napoli,D,12,37
+Spence,Inter,D,11,34
+Chalobah T.,Como,D,10,33
+Gila,Milan,D,12,33
+Vasquez,Genoa,D,10,31
+Ramon,Como,D,9,30
+Scalvini,Atalanta,D,10,30
+Hermoso,Roma,D,12,28
+Stones,Inter,D,11,28
+Tavares N.,Lazio,D,8,24
+Couto,Como,D,8,24
+Delprato,Parma,D,8,24
+Spinazzola,Napoli,D,8,23
+Miranda J.,Bologna,D,9,23
+Diego Carlos,Parma,D,7,22
+Marusic,Lazio,D,7,22
+Zappacosta,Atalanta,D,8,22
+Belghali,Torino,D,6,21
+Carlos Augusto,Inter,D,5,21
+Tiago Gabriel,Lecce,D,7,21
+Vojvoda,Udinese,D,10,21
+Valeri,Parma,D,7,20
+Bartesaghi,Milan,D,8,20
+Mina,Cagliari,D,8,20
+Dragusin,Fiorentina,D,8,20
+Kristensen T.,Atalanta,D,7,20
+De Winter,Milan,D,5,20
+Valle,Como,D,6,19
+Theate,Bologna,D,7,19
+Idzes,Sassuolo,D,6,19
+Badiashile,Napoli,D,7,19
+Zortea,Bologna,D,8,18
+Jimenez A.,Fiorentina,D,8,18
+Cambiaso,Juventus,D,9,18
+Dodò,Fiorentina,D,8,17
+Sutalo J.,Lazio,D,7,17
+Bernasconi,Atalanta,D,6,16
+Mile Svilar,Roma,P,18,196
+Mike Maignan,Milan,P,16,171
+Marco Carnesecchi,Atalanta,P,15,158
+Vicario,Juventus,P,18,60
+Meret,Napoli,P,12,51
+Butez,Como,P,14,46
+Mandas,Lazio,P,11,32
+De Gea,Fiorentina,P,10,30
+Skorupski,Bologna,P,10,27
+Falcone,Lecce,P,7,27
+Perri,Torino,P,9,26
+Sanchez Ro.,Como,P,9,26
+Okoye,Udinese,P,8,25
+Caprile,Cagliari,P,11,21
+Muric,Sassuolo,P,8,14
+Bijlow,Genoa,P,8,13
+Palmisani,Frosinone,P,4,11
+Stankovic F.,Venezia,P,7,11
+Corvi,Parma,P,2,11
