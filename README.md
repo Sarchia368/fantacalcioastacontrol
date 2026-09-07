@@ -1,4 +1,4 @@
-# Fantacalcio Asta Control — V57
+# Fantacalcio Asta Control — V58
 
 Versione pronta da caricare su GitHub/Cloudflare Pages o Workers.
 
@@ -11,7 +11,7 @@ Versione pronta da caricare su GitHub/Cloudflare Pages o Workers.
 - Google Analytics 4 `G-HKRNRW40Z0` e tag AdSense `ca-pub-3812036376533672`, entrambi inizializzati con consenso negato.
 - Nessun database, endpoint o raccolta remota di email. L'email opzionale resta nel browser e serve solo al salvataggio locale.
 
-## Prima della pubblicazione degli annunci
+## Consenso Google già configurato
 
 1. In AdSense apri **Privacy e messaggi** e crea il messaggio per le normative europee usando la CMP di Google.
 2. Verifica che il messaggio sia attivo per `fantacalcioastacontrol.it`.
