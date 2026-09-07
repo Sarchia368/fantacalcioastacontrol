@@ -1,4 +1,4 @@
-# Release V58 — 7 settembre 2026
+# Release V59 — 7 settembre 2026
 
 ## Correzioni principali
 
@@ -11,6 +11,7 @@
 - Importazione calibrata sul file ufficiale di Fantacalcio.it / LegheFC: riconosce la riga intestazioni successiva al titolo e le colonne R, Nome, Squadra, Qt.A e FVM.
 - Sostituito il CSV demo con quello fornito dall'utente e riscritto il tutorial di download/importazione.
 - Avviso persistente e molto visibile quando salvataggio locale e backup sono disattivati per mancata email.
+- Feedback nascosto finché l'utente non inserisce un'email. Quando disponibile, apre il client email predefinito con destinatario info@fantacalcioastacontrol.it.
 
 ## Configurazione consenso
 
